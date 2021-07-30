@@ -1,0 +1,14 @@
+int readline(FILE *fp,char *line);
+int find_word(char* line , char* word);
+int finds(char *line , char *sample , int cases , int word);
+void helppage();
+int isdirectory(char ch[]);
+int isfile(char ch[]);
+int iscommand(char ch[]);
+int findsr(char *line , char *sample , int cases , int isword);
+int for_carndoll(char *line,char *word,int cases);
+int for_dollar(char *line , char* word, int cases , int isword);
+int for_carat(char *line,char *word ,int cases , int isword);
+char* for_oflag(char *line,char *word,int cases);
+int isvalidm(char ch[]);
+int isvalidf(char ch[]);
